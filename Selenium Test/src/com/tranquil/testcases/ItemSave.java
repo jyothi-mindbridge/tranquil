@@ -79,7 +79,7 @@ public class ItemSave
 			((JavascriptExecutor) driver).executeScript("scroll(0,20)");
 			item.click_save1();
 			Thread.sleep(3000);
-			System.out.println(2);
+			
 		}
 
 		catch (Throwable e) {
